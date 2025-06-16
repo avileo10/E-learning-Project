@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speak Ease</title>
+    <link rel="stylesheet" href="project.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+
+    <div class="container">
+        <div class="one">
+       <img src="https://static.vecteezy.com/system/resources/previews/014/600/367/large_2x/se-letter-logo-design-in-illustration-logo-calligraphy-designs-for-logo-poster-invitation-etc-vector.jpg "height="80px" width="80px">
+       <h1>SPEAK <span style="color: tomato;">EASE</span></h1>
+    </div>
+    <div class="two">
+      <nav class="navbar">
+        <ul class="nav-links">
+          <li class="nav-link">
+            <a href="#">Home</a>
+          </li>
+          <li class="nav-link services">
+            <a href="#">Services</a>
+            <span class="material-icons dropdown-icon">
+              arrow_drop_down
+            </span>
+            <ul class="drop-down">
+              <li>English Language Learning</li>
+              <li>English Language Assessment</li>
+              <li>Dictionary</li>
+            </ul>
+          </li>
+          <li class="nav-link about">
+            <a href="#">About Us</a>
+            <span class="material-icons dropdown-icon">
+              arrow_drop_down
+            </span>
+            <ul class="drop-down">
+              <li>What we do </li>
+              <li>News and Insights</li>
+              <li>Contact Us</li>
+          </ul>
+          </li>
+          <li class="nav-link help">
+            <a href="#">Help</a>
+            <span class="material-icons dropdown-icon">
+              arrow_drop_down
+            </span>
+            <ul class="drop-down">
+              <li>Special Requirements </li>
+              <li>Complaints</li>
+              <li>Enquiries and Appeals</li>
+          </ul>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="validation">
+        <button class="Login-btn" onclick="openLogin()">Login</button>
+      <div id="loginPopup" class="popup">
+        <div class="popup-content">
+          <span class="close" onclick="closeLogin()"><ion-icon name="close-outline"></ion-icon></span>
+
+          <h1>SIGN UP</h1>
+<form id="myform" onsubmit="return validateform()" method="post" action="project.php">
+    <label for="name">NAME</label><br>
+    <input type="text" placeholder="Enter Username" id="name" name="name" style="width: 250px; margin-left: 40px;"><br>
+    <span id="nameError" class="error"></span><br><br>
+
+   <label for="email">EMAIL</label><br>
+    <input type="email" placeholder ="Enter Email" id="email" name="email" style="width: 250px; margin-left: 40px;"><br>
+    <span id="EmailError" class="error"></span><br><br>
+
+
+    <label for="pswd">PASSWORD</label><br>
+    <input type="password" placeholder="Enter Password" id="pswd" name="pswd" style="width: 250px; margin-left: 40px;"><br>
+    <span id="passwordError" class="error"></span><br><br>
+
+
+    <label for="confirmpassword">CONFIRM PASSWORD</label><br>
+    <input type="password" placeholder="Enter Confirm Password" id="confirmpassword" name="confirmpassword" style="width: 250px; margin-left: 40px;"><br>
+    <span id="confirmError" class="error"></span><br>
+
+    <div class="remember-forgot">
+      <label><input type="checkbox" style="text-align: center;">I agree to the terms & conditions</label>
+    </div>
+    
+
+<div class="accept">
+    <button type="submit" name="submit">SUBMIT</button>
+  </div>
+  
+</form>
+</div>
+      </div>
+    </div>
+  </div>
+
+    <div class="background">
+    <div class="nav-bar">
+        <ul>
+            <li><a href="default.asp">Home</a></li>
+            <li><a href="default.asp">Why Choose Us?</a></li>
+            <li><a href="default.asp">Exams and Test</a></li>
+            <li><a href="default.asp">Teaching English</a></li>
+            <li><a href="default.asp">Blog</a></li>
+            <li><a href="default.asp">News</a></li>
+            <li><a href="default.asp">Events</a></li>
+        </ul>
+        <form>
+            <input type="text" placeholder="What are you looking for?">
+            <button type="submit">Search</button>
+        </form>
+    </div>
+
+    <div class="nav">
+     <h1>UPGRADE YOUR <span style="color: tomato">ENGLISH</span> SKILLS EFFORTLESSLY</h1>
+  </div>
+
+    <div class="image">
+        <img src="https://www.cambridgeenglish.org/Images/test-your-english-banner-2019.jpg">
+    </div>
+    <div class="header">
+      <p><h1>TEST&nbsp;&nbsp;YOUR&nbsp;&nbsp;ENGLISH</h1></p>
+    </div>
+
+      <div class="ads">
+    
+      <div class="content">
+      <div class="five">
+      <button type="submit" onclick="document.location='Project1.html'">General English</button>
+    </div>
+
+    <div class="six">
+      <button type="submit" onclick="document.location='Project1.html'">For<br>Schools</button>
+    </div>
+
+    <div class="seven">
+      <button type="submit" onclick="document.location='Project1.html'">Bussiness English</button>
+    </div>
+
+    <div class="eight">
+      <button type="submit" onclick="document.location='Project1.html'">Young Learners</button>
+    </div>
+    </div><br>
+   <p> <h2>BEGIN TEST</h2></p>
+  </div>
+ 
+  
+
+    <div class="condition">
+      <img src="https://www.cambridgeenglish.org/Images/ap1%20%281%29.jpg" height="250px" width="350px">
+      <div class="nine">
+        <img src="https://www.cambridgeenglish.org/Images/ceq-logo-stacked.png">
+        <h2>Your path to learning English, step by step:</h2>
+        <p><h3>Speak Ease Qualifications are in-depth exams that make learning English enjoyable, effective and rewarding. 
+          Our unique approach encourages continuous progression with a clear path to improve language skills.
+          We have qualifications for schools, general and higher education, and business.</h3></p>
+          <div class="twelve">
+          <button type="submit">Learn More</button>
+      </div>
+    </div>
+    </div>
+
+    <div class="condition1">
+      <div class="ten">
+        <img src="https://www.cambridgeenglish.org/Images/linguaskill_logo.png">
+        <h2>Online English testing, simplified:</h2>
+        <p><h3>Linguaskill is a quick and convenient online test to help higher education institutions and employers 
+          check the English levels of individuals and groups of candidates. 
+          It combines the latest technology with the reliability and quality you expect from Speak Ease.</h3></p>
+          <div class="thirteen">
+          <button type="submit">Learn More</button></div></div>
+          <img src="https://www.cambridgeenglish.org/Images/ap3%20copy.jpg" height="250px" width="350px">
+        
+    </div>
+
+    <div id="eleven">
+        <img src="https://www.cambridgeenglish.org/Images/alte-logo-footer.png" width="144px" height="61px">
+        <img src="https://www.cambridgeenglish.org/Images/english-profile-logo-footer.png"width="171px" height="40px">
+      <img src="https://www.cambridgeenglish.org/Images/bsi-logo-footer.png">
+</div>
+
+<div class="footer">
+  <p><h3> @ Speak Ease Press and Assessement 2025</h3></p><br>
+
+  <ul class="footer1">
+    <li><a href="#">Terms and Condition</a></li>
+    <li><a href="#">Data Protection</a></li>
+    <li><a href="#">Acessibility Statement</a></li>
+    <li><a href="#">Statement on modern slavery</a></li>
+    <li><a href="#">Safegaurding Policy</a></li>
+    <li><a href="#">Sitemap</a></li>
+  </ul>
+</div>
+</div>
+
+<script>
+  function openLogin(){
+    document.getElementById("loginPopup").style.display = "block";
+  }
+    function closeLogin(){
+      document.getElementById("loginPopup").style.display = "none";
+    }
+  function validateform()
+  {
+      let isValid=true;
+      let name=document.getElementById('name').value;
+      let email=document.getElementById('email').value;
+      let password=document.getElementById('pswd').value;
+      let confirmpassword=document.getElementById('confirmpassword').value;
+      document.getElementById('nameError').innerText="";
+      document.getElementById('EmailError').innerText="";
+      document.getElementById('passwordError').innerText="";
+      document.getElementById('confirmError').innerText="";
+
+
+  if(name.trim() ==='')
+  {
+      document.getElementById('nameError').innerText="Name is required";
+      isValid=false;
+  }
+  if(email.trim() ==='')
+  {
+      document.getElementById('EmailError').innerText="Email is required";
+      isValid=false;
+  }
+  else if(!email.includes("@"))
+{
+  document.getElementById('EmailError').innerText="Email must contain @";
+  isValid=false;
+}
+if(password.trim() ==="")
+{
+  document.getElementById('passwordError').innerText="password is required";
+  isValid=false; 
+}
+else if(password.length > 8 )
+{
+  document.getElementById('passwordError').innerText='password must be atleast 8 characters';
+  isValid=false;
+}
+if(confirmpassword.trim()==="")
+{
+  document.getElementById('confirmError').innerText='confirm password is requires';
+  isValid=false;
+}
+else if(confirmpassword !==password)
+{
+  document.getElementById('confirmError').innerText='password do not match';
+  isValid=false;
+}
+return isValid;
+  }
+</script>
+
+<script src="script.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    
+</body>
+</html>
